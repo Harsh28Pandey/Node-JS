@@ -1,5 +1,5 @@
 {
-  "name": "02-server",
+  "name": "03-http-status-codes",
   "version": "1.0.0",
   "description": "",
   "license": "ISC",
@@ -7,10 +7,6 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon mongodb.js"
-  },
-  "dependencies": {
-    "express": "^5.2.1",
-    "url": "^0.11.4"
+    "start": "nodemon index.js"
   }
 }
