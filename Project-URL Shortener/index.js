@@ -3,7 +3,7 @@ const connectDB = require("./config/db")
 const url = require("./models/url")
 const path = require("path")
 const cookieParser = require("cookie-parser")
-const { restrictToLoggedInUserOnly, checkAuth } = require("./middlewares/authMiddleware")
+const { checkForAuthentication, restrictTo } = require("./middlewares/authMiddleware")
 
 const urlRoute = require("./routes/urlRoute")
 const staticRoute = require("./routes/staticRouter")
@@ -23,11 +23,12 @@ connectDB("mongodb://127.0.0.1:27017/short-url")
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 app.use(cookieParser())
+app.use(checkForAuthentication)
 
 // routes
-app.use("/url", restrictToLoggedInUserOnly, urlRoute)
+app.use("/url", restrictTo(["NORMAL", "ADMIN"]), urlRoute)
 app.use("/user", userRoute)
-app.use("/", checkAuth, staticRoute)
+app.use("/", staticRoute)
 
 app.get("/:shortId", async (req, res) => {
     const shortId = req.params.shortId
