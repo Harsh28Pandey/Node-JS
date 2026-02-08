@@ -1,0 +1,62 @@
+[
+    {
+        "question": "What does HTML stand for?",
+        "options": [
+            "Hyper Text Markup Language",
+            "High Text Machine Language",
+            "Hyperlinks and Text Markup Language",
+            "Home Tool Markup Language"
+        ],
+        "answer": "Hyper Text Markup Language"
+    },
+    {
+        "question": "Which HTML tag is used to create a hyperlink?",
+        "options": [
+            "<a>",
+            "<link>",
+            "<href>",
+            "<hyper>"
+        ],
+        "answer": "<a>"
+    },
+    {
+        "question": "Which CSS property is used to change the text color?",
+        "options": [
+            "font-color",
+            "text-color",
+            "color",
+            "background-color"
+        ],
+        "answer": "color"
+    },
+    {
+        "question": "Which HTML tag is used to display an image?",
+        "options": [
+            "<image>",
+            "<img>",
+            "<pic>",
+            "<src>"
+        ],
+        "answer": "<img>"
+    },
+    {
+        "question": "Which CSS property controls the space inside an element?",
+        "options": [
+            "margin",
+            "padding",
+            "border",
+            "spacing"
+        ],
+        "answer": "padding"
+    },
+    {
+        "question": "Which CSS display value makes elements appear in a single line?",
+        "options": [
+            "block",
+            "inline",
+            "inline-block",
+            "flex"
+        ],
+        "answer": "inline"
+    }
+]
