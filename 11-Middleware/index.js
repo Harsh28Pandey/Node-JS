@@ -1,0 +1,1 @@
+//? Middleware - middleware ek aisa function hota hai jo request (req) aur response (res) ke beech me run hota hai. ye har incoming request par execute hota hai, aur request/response object ko access,modify,ya process kar sakta hai.

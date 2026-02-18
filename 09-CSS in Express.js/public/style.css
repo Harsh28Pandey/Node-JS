@@ -1,0 +1,16 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: purple;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+}

@@ -1,18 +1,21 @@
 import express from 'express'
+import login from './pages/login.js'
+import submit from './pages/submit.js'
+import home from './pages/home.js'
 
 const app = express()
 const PORT = 8000
 
-app.use('/', (req, res) => {
-    res.send("<h1>Welcome to the home page</h1>")
+app.get('/', (req, res) => {
+    res.send(home())
 })
 
-app.use('/login', (req, res) => {
-
+app.get('/login', (req, res) => {
+    res.send(login())
 })
 
-app.use('/submit', (req, res) => {
-    res.send("<h1>Submit page</h1>")
+app.post('/submit', (req, res) => {
+    res.send(submit())
 })
 
 app.listen(PORT, () => {
