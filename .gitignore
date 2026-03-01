@@ -2,7 +2,7 @@
 node_modules
 
 # ignore env file
-.env
+# .env
 
 # ignore log files
 package-lock.json
