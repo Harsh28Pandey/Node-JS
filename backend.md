@@ -67,7 +67,7 @@
 
 ## HTTP Methods
 
-# GET Method
+### GET Method
 
 - jab hame server se data fetch karvana ho tab `GET` method use karte hai.
 
