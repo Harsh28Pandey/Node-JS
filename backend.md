@@ -41,7 +41,7 @@
 
 --- 
 
-# Types of API by Architectural Style/Protocol
+# 👉 Types of API by Architectural Style/Protocol
 
 ## REST (Representational State Transfer) API
 
@@ -65,7 +65,7 @@
 
 ---
 
-# HTTP Methods
+# 👉 Types of HTTP Methods
 
 ## GET Method
 
@@ -84,3 +84,4 @@
 - jab hame server par data delete karna hoo tab ham `DELETE` method use karte hai.
 
 ---
+
