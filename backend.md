@@ -65,3 +65,22 @@
 
 ---
 
+## HTTP Methods
+
+# GET Method
+
+- jab hame server se data fetch karvana ho tab `GET` method use karte hai.
+
+## POST Method
+
+- jab hame server par data send karna hoo tab ham `POST` method use karte hai.
+
+## PATCH Method
+
+- jab hame server par data already present hoo aur hame uss data ko update karna hoo tab ham `PATCH` method use karte hai.
+
+## DELETE Method
+
+- jab hame server par data delete karna hoo tab ham `DELETE` method use karte hai.
+
+---
