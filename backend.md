@@ -41,7 +41,7 @@
 
 --- 
 
-#### Types of API by Architectural Style/Protocol
+# Types of API by Architectural Style/Protocol
 
 ## REST (Representational State Transfer) API
 
@@ -65,9 +65,9 @@
 
 ---
 
-## HTTP Methods
+# HTTP Methods
 
-### GET Method
+## GET Method
 
 - jab hame server se data fetch karvana ho tab `GET` method use karte hai.
 
