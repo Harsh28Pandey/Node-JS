@@ -22,4 +22,46 @@
 
 ---
 
-## 
+## port
+
+- `port number` ka hmm usse karte hai voo hame batata hai ki hamara server kon se port par run karega
+
+---
+
+## Request and Response
+
+- `req` ka matlab voo poora data joo frontend se backend ki taraf aa raha hai voo hmm `req` ki help se hii accept kar payenge aur koi second method nhi hai access karne ka.
+- `res` ka matlab joo bhi data hame backend se frontend ki taraf hame send karna hai uske liye hmm `res` ka use karenge.
+
+---
+
+## API (Application programming interface)
+
+- `api` is a set of rules or protocols that allows different software programs to communicate and exchange data and function with each other, means hame two or more applications ko communicate kiya jaa sakta hai.
+
+--- 
+
+#### Types of API by Architectural Style/Protocol
+
+## REST (Representational State Transfer) API
+
+- `REST API` means data is typically exchanged in formats like JSON or XML. In REST API methods are (GET, POST, PUT, DELETE). Means two applications ko kaise communicate karvana hai voo `REST API` batati hai.
+
+## SOAP (Simple Object Access Protocol) API
+
+- `SOAP API` means XML for message formatting and typically rely on HTTP or other protocols for message communication, they are known for their strong typing, security features and often used in enterprise environments.
+
+## RPC (Remote Procedure Call) API
+
+- `RPC API` means to allow a client to execute a function or procedure on a remote server as if it were a local call, example includes XML-RPC and JSON-RPC.
+
+## GraphQL API
+
+- `GraphQL API` means it's a query language for APIs and a runtime for fulfilling those queries with existing data, it allows clients to request exactly the data thay need, avoiding over-fetching or under-fetching of data.
+
+## WebSocket API
+
+- `WebSocket API` means unlike traditional HTTP requests, websockets APIs provide persistent, two-way communication channels between a client and a server, enabling real-time data exchange.
+
+---
+
