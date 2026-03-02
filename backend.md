@@ -18,7 +18,7 @@
 
 ## node_modules
 
--- `node_modules` folder me hamare jitne bhi packages hai unka poora code iss folder me present hota hai aur isme ye bhi hota hai ki jo package hamne install kiya hai voo kisi aur package par depend karta hai ki nhi, agar karta hai too uska poora code bhi iss folder me present hota hai, varna agar voo package kisi aur dependencies par dependend hota hai too usska code bhi iss folder me present hota hai.
+- `node_modules` folder me hamare jitne bhi packages hai unka poora code iss folder me present hota hai aur isme ye bhi hota hai ki jo package hamne install kiya hai voo kisi aur package par depend karta hai ki nhi, agar karta hai too uska poora code bhi iss folder me present hota hai, varna agar voo package kisi aur dependencies par dependend hota hai too usska code bhi iss folder me present hota hai.
 
 ---
 
