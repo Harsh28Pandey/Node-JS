@@ -39,7 +39,7 @@
 
 - `api` is a set of rules or protocols that allows different software programs to communicate and exchange data and function with each other, means hame two or more applications ko communicate kiya jaa sakta hai.
 
---- 
+---
 
 # 👉 Types of API by Architectural Style/Protocol
 
@@ -82,6 +82,12 @@
 ## DELETE Method
 
 - jab hame server par data delete karna hoo tab ham `DELETE` method use karte hai.
+
+---
+
+## Params
+
+- jo hamara dynamic part rahta hai routes ke andar use hame `params` ke andar consider karte hai. Express ki application ko batana hai `/notes/` ke baad jo part aa raha hai voo dynamic uske liye bss `:` likh doo like as `/notes/:id`. `:` likhne ke badd express ki application ko pata chal jayega ki colon ke baad jo part aane wala hai voo dynmaic hai.
 
 ---
 
