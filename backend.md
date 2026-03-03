@@ -91,3 +91,8 @@
 
 ---
 
+## MongoDB Cluster
+
+- `cluster` means ye ek physical machine hoti hai aur ye karta hai ki hamare system me kitne cpu, ram, storage and etc. hone wali hai voo hame configure karta hai.
+
+---
