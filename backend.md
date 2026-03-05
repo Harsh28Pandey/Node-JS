@@ -96,3 +96,9 @@
 - `cluster` means ye ek physical machine hoti hai aur ye karta hai ki hamare system me kitne cpu, ram, storage and etc. hone wali hai voo hame configure karta hai.
 
 ---
+
+## CORS (Cross Origin Resource Sharing)
+
+- `cors` is a security mechanism that allows web servers to tell browsers that resources from a different domain can be shared with your web application
+
+---
