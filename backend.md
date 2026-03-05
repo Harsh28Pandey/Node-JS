@@ -102,3 +102,27 @@
 - `cors` is a security mechanism that allows web servers to tell browsers that resources from a different domain can be shared with your web application
 
 ---
+
+# 👉 Four major pillars of
+
+## Authentication
+
+- isme mainly four steps hote hai ek authentication ko perform karne ke liye `Validation`, `Verification`, `Authentication` and `Authorization`.
+
+## Validation
+
+- joo data hamare pass aa raha hai voo sahi format me hai ya nhi, isme hmm ye check karte hai ki data ka format sahi hai ki nhi
+
+## Verification
+
+- hame jo data mil raha hai uske check karne ke process ko hmm verification bolte hai.
+
+## Authentication
+
+- request jiss bhi user ke pass se aa rahi hai uss user ko identify karna usse hmm authentication bolte hai.
+
+## Authorization
+
+- alag alag user ke pass alag alag permissions hoti hai means, ek user kon kon se kaam ko kar sakta hai usse authorization bolte hai
+
+---
