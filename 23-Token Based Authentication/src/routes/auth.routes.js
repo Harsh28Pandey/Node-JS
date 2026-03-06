@@ -4,5 +4,12 @@ const authController = require("../controllers/auth.controller")
 const router = express.Router()
 
 router.post("/register", authController.registerUser)
+// router.get("/test", (req, res) => {
+//     console.log("Cookies: ", req.cookies)
+//     res.status(200).json({
+//         message: "Test Route",
+//         cookies: req.cookies
+//     })
+// })
 
 module.exports = router
