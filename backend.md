@@ -132,3 +132,11 @@
 - `middleware` request ke andar jo bhi data aata hai voo sab read kar sakta hai, aur request ke andar jo data aata hai usse modify bhi kar sakta hai and `middleware` response bhi send kar sakta hai.
 
 ---
+
+## Jest and Super Test
+
+- `jest` hamare kaam me aata jab bhi hmm koi api generate kar rahe hote hai voo api sahi tarike se response bhej rahi hai ki nhi, issko test karne ke liye kaam aata hai. `Jest` ek JavaScript testing framework hai jo mainly code ko test karne ke liye use hota hai.
+
+- `supertest` Supertest specifically API testing ke liye use hota hai, Aur Yeh check karta hai - API status code,API response body,API headers
+
+---
