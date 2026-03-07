@@ -126,3 +126,9 @@
 - alag alag user ke pass alag alag permissions hoti hai means, ek user kon kon se kaam ko kar sakta hai usse authorization bolte hai
 
 ---
+
+## Middlewares
+
+- `middleware` request ke andar jo bhi data aata hai voo sab read kar sakta hai, aur request ke andar jo data aata hai usse modify bhi kar sakta hai and `middleware` response bhi send kar sakta hai.
+
+---
