@@ -16,7 +16,7 @@ const userSchema = new mongoose.Schema({
         required: true
     },
     role: {
-        type: stringify,
+        type: String,
         enum: ["user", "artist"],
         default: "user"
     }
